@@ -2,5 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+   
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+:root{
+    rgb(229, 49, 112) h1;
+    rgb(15, 14, 23) black;
+    
+    rgb(69, 175, 208) blu testo;
+}
+*/
+
+header, nav{
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1{
+    color:rgb(229, 49, 112) ;
+}
+h3, h5{
+    color: white;
+}
+h6{
+    color:rgb(69, 175, 208) ;
 }
