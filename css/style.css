@@ -7,6 +7,8 @@
 body {
     background-color: lightgray;
     font-family: cursive;
+    font-weight: bold;
+
 }
   
 /* HEADER */
@@ -47,6 +49,15 @@ img {
     width: 30%;
 }
 
+h3,
+h5 {
+    color: white;
+}
+  
+h6 {
+    color: rgb(69, 175, 208);
+}
+
 .text {
     background-color: black;
     height: 120px;
@@ -56,14 +67,7 @@ img {
     line-height: 35px;
 }
   
-h3,
-h5 {
-    color: white;
-}
-  
-h6 {
-    color: rgb(69, 175, 208);
-}
+
   
 /*CLEARFIX*/
 .clearfix::after {
