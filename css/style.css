@@ -7,8 +7,6 @@
 body {
     background-color: lightgray;
     font-family: cursive;
-    font-weight: bold;
-
 }
   
 /* HEADER */
@@ -40,7 +38,7 @@ p {
     float: left;
     width: calc(100% / 3 - 20px);
     margin: 10px;
-    box-shadow: 5px 5px 11px -5px #000000;
+    box-shadow:10px 0px 13px -12px #000000;
     margin-bottom: 50px
 }
   
