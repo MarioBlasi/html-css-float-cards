@@ -3,58 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    background-color:lightgray;
-    font-family:cursive;
+  
+body {
+    background-color: lightgray;
+    font-family: cursive;
 }
-
-header, nav{
+  
+/* HEADER */
+header,
+nav {
     text-align: center;
     padding: 1rem;
     margin-bottom: 3rem;
 }
-
-h1{
-    color:rgb(229, 49, 112) ;
+  
+h1 {
+    color: rgb(229, 49, 112);
 }
-h3, h5{
-    color: white;
-}
-h6{
-    color:rgb(69, 175, 208) ;
-}
-
-p{
+  
+/* NAV */
+p {
     margin-bottom: 1rem;
 }
-
-.text{
-    background-color: black;
-    height: 120px;
-    width: 200px;
-}
-
-img{
-    height: 120px;
-    width: 120px;
-}
-.container{
+  
+/* MAIN */
+.container {
     margin: auto;
     max-width: 1170px;
 }
-
-.cv{
-    margin-left: 10px;
+  
+/* SECTION CARD 1 e 2*/
+  
+.card {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    box-shadow: 5px 5px 11px -5px #000000;
+    margin-bottom: 50px
 }
+  
+img {
+    height: 120px;
+    width: 30%;
+}
+
+.text {
+    background-color: black;
+    height: 120px;
+    width: 70%;
+    padding: 10px;
+    float: right;
+    line-height: 35px;
+}
+  
+h3,
+h5 {
+    color: white;
+}
+  
+h6 {
+    color: rgb(69, 175, 208);
+}
+  
 /*CLEARFIX*/
-.clearfix::after{
+.clearfix::after {
     content: "";
-    display:table;
-    clear:both;
-}
-
-.cv div {
-    float:left;
-    
+    display: table;
+    clear: both;
 }
