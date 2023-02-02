@@ -5,26 +5,16 @@
    
 }
 body{
-    background-color: rgb(197, 132, 47);
-    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(247, 245, 243);
+    font-family:cursive;
 }
-
-/*
-:root{
-    rgb(229, 49, 112) h1;
-    rgb(15, 14, 23) black;
-    
-    rgb(69, 175, 208) blu testo;
-
-    
-}
-*/
 
 header, nav{
     text-align: center;
     padding: 1rem;
     margin-bottom: 3rem;
 }
+
 
 h1{
     color:rgb(229, 49, 112) ;
@@ -36,9 +26,11 @@ h6{
     color:rgb(69, 175, 208) ;
 }
 
+
 .container{
     margin: auto;
     max-width: 1170px;
+    max-height: 800px;
     
 }
 
@@ -49,14 +41,16 @@ h6{
     clear:both;
 }
 
-.columns_one, 
-.columns_two, 
-.columns_three,
-.columns_four, 
-.columns_five,
-.columns_six,
-img{
-    float: left;
-    margin-right: 16px;
+.card {
+    
+    margin-right:10px;
     background-color: black;
+    padding: 0 10px;  
+    
+}
+
+.cv div {
+    float:left;
+    background-color: black;
+    
 }
